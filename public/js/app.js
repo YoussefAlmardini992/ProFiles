@@ -64495,7 +64495,9 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container"
-      }, "Home page");
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        style: styles.title
+      }, "Home Page"));
     }
   }]);
 
@@ -64503,6 +64505,12 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 
+var styles = {
+  title: {
+    color: 'red',
+    fontWeight: 'bold'
+  }
+};
 
 /***/ }),
 
