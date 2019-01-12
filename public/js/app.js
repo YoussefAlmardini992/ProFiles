@@ -64656,8 +64656,8 @@ function (_Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\webroot\Pro-Files\pro-files\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\webroot\Pro-Files\pro-files\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Metamorphosis\Documents\ProFiles\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Metamorphosis\Documents\ProFiles\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
