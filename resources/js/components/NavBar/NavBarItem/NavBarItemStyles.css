@@ -1,0 +1,9 @@
+:local(.container){
+    width: 30%;
+    border:1px solid black;
+    text-align: center;
+    float: right;
+}
+:local(.container:hover){
+    cursor: pointer;
+}

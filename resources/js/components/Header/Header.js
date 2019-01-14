@@ -7,11 +7,15 @@ export default class Header extends Component{
 
   render(){
 
+    const{onClick} = this.props;
+
     return(
 
           <div className={styles.HeaderContainer}>
             <Logo/>
-            <NavBar/>
+            <NavBar
+              onClick={onClick}
+            />
           </div>
 
     )
