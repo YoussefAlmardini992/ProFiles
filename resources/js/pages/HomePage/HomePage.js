@@ -5,18 +5,15 @@ export default class HomePage extends Component {
 
     render() {
       return (
-            <div className="container">
-                <div style={styles.title}>
-                    Home Page
+            <div >
+                <div >
+                   Title
+                </div>
+                <div >
+                    some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text
                 </div>
 
             </div>
         );
     }
 }
-const styles = {
-    title:{
-        color: 'red',
-        fontWeight:'bold'
-    }
-};
