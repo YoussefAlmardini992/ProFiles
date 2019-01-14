@@ -355,11 +355,25 @@
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
     </include_path>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds">
     <option name="x" value="2288" />
     <option name="y" value="1013" />
     <option name="width" value="1547" />
     <option name="height" value="830" />
+=======
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1701" />
+    <option name="y" value="109" />
+>>>>>>> b3272d3bfffd2e0d9f67efe53bb2bc42793aff02
+    <option name="width" value="1940" />
+    <option name="height" value="882" />
+>>>>>>> 148e36bd4b179dd3ccaa7e9693aad4602f0a37da
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -436,6 +450,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jaar2/stage/Across_github" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -447,6 +462,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\webroot\friends\ProFiles\public\img" />
     </key>
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> 148e36bd4b179dd3ccaa7e9693aad4602f0a37da
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

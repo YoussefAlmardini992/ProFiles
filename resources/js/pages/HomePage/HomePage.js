@@ -12,7 +12,6 @@ export default class HomePage extends Component {
                 <div >
                     some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text
                 </div>
-
             </div>
         );
     }
