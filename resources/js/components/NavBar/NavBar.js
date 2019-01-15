@@ -16,23 +16,23 @@ export default class NavBar extends Component{
 
         </div>
         <NavBarItem
-          label={'home'}
+          label={'Home'}
           onClick={onClick}
         />
         <NavBarItem
-          label={'about'}
+          label={'About'}
           onClick={onClick}
         />
         <NavBarItem
-          label={'projects'}
+          label={'Projects'}
           onClick={onClick}
         />
         <NavBarItem
-          label={'my project'}
+          label={'My Project'}
           onClick={onClick}
         />
         <NavBarItem
-          label={'contact'}
+          label={'Contact'}
           onClick={onClick}
         />
       </div>

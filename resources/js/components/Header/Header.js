@@ -11,7 +11,7 @@ export default class Header extends Component{
 
     return(
 
-          <div className={styles.HeaderContainer}>
+          <div className="HeaderContainer">
             <Logo/>
             <NavBar
               onClick={onClick}

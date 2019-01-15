@@ -1,8 +1,11 @@
 :local(.container){
     width: 30%;
-    border:1px solid black;
     text-align: center;
-    float: right;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: white;
 }
 :local(.container:hover){
     cursor: pointer;

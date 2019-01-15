@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import styles from './logo.css';
 
-const imageName = require('../../../../public/img/bg.jpg');
+const imageName = require('../../../../public/img/logo.jpeg');
 
 export default class Logo extends Component {
 

@@ -20,15 +20,15 @@ export default class HomePageRouter extends Component {
   navigatePage(target){
 
     switch (target){
-      default : case 'home':
+      default : case 'Home':
         return(<HomePage/>);
-      case 'about':
+      case 'About':
         return(<AboutPage/>);
-      case 'projects':
+      case 'Projects':
         return(<ProjectsPage/>);
-      case 'my project':
+      case 'My Project':
         return(<MyProject/>);
-      case 'contact':
+      case 'Contact':
         return(<ContactPage/>);
     }
   }
