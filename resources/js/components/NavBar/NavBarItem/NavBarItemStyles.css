@@ -7,11 +7,12 @@
     line-height: 1.7;
     color: white;
     float: right;
-    background-color: #1d68a7;
 }
-:local(.container:hover){
+:local(.label:hover){
     cursor: pointer;
+    background: rgba(0,0,0,0.5);
 }
 :local(.label){
     height: 100%;
+    margin: 0;
 }
