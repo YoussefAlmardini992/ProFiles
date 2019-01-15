@@ -7,7 +7,7 @@ export default class NavBarItem extends Component{
     const{label,onClick} = this.props;
     return(
       <div onClick={onClick} className={styles.container}>
-        <h5>{label}</h5>
+        <h5 className={styles.label}>{label}</h5>
       </div>
     )
   }

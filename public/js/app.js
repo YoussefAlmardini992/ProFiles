@@ -6044,11 +6044,12 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "._339rN_QR-bZ-UDQ5DzvmnO{\r\n    width: 30%;\r\n    text-align: center;\r\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\r\n    font-size: 1rem;\r\n    font-weight: 400;\r\n    line-height: 1.7;\r\n    color: white;\r\n}\r\n._339rN_QR-bZ-UDQ5DzvmnO:hover{\r\n    cursor: pointer;\r\n}", ""]);
+exports.push([module.i, "._339rN_QR-bZ-UDQ5DzvmnO{\r\n    width: 30%;\r\n    text-align: center;\r\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\r\n    font-size: 1rem;\r\n    font-weight: 400;\r\n    line-height: 1.7;\r\n    color: white;\r\n    float: right;\r\n    background-color: #1d68a7;\r\n}\r\n._339rN_QR-bZ-UDQ5DzvmnO:hover{\r\n    cursor: pointer;\r\n}\r\n.RiGFLW6T1uALyWdKb9m_O{\r\n    height: 100%;\r\n}", ""]);
 
 // exports
 exports.locals = {
-	"container": "_339rN_QR-bZ-UDQ5DzvmnO"
+	"container": "_339rN_QR-bZ-UDQ5DzvmnO",
+	"label": "RiGFLW6T1uALyWdKb9m_O"
 };
 
 /***/ }),
@@ -60952,7 +60953,9 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         onClick: onClick,
         className: _NavBarItemStyles_css__WEBPACK_IMPORTED_MODULE_1___default.a.container
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, label));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+        className: _NavBarItemStyles_css__WEBPACK_IMPORTED_MODULE_1___default.a.label
+      }, label));
     }
   }]);
 
