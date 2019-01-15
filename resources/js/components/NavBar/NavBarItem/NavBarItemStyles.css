@@ -3,7 +3,11 @@
     border:1px solid black;
     text-align: center;
     float: right;
+    background-color: #1d68a7;
 }
 :local(.container:hover){
     cursor: pointer;
+}
+:local(.label){
+    height: 100%;
 }
