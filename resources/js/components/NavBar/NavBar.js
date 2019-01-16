@@ -1,6 +1,10 @@
 import React,{Component} from 'react';
 import NavBarItem from "./NavBarItem/NavBarItem";
 import styles from './NavBarStyles.css';
+import { Link } from 'react-router-dom'
+import AboutPage from "../../pages/AboutPage/AboutPage";
+import HomePage from "../../pages/HomePage/HomePage";
+import { Switch, Route } from 'react-router-dom'
 
 export default class NavBar extends Component{
 
@@ -8,33 +12,11 @@ export default class NavBar extends Component{
 
   render(){
 
-    const{onClick} = this.props;
+
 
     return(
       <div className={styles.container}>
-        <div className={styles.spaceBetween}>
 
-        </div>
-        <NavBarItem
-          label={'Home'}
-          onClick={onClick}
-        />
-        <NavBarItem
-          label={'About'}
-          onClick={onClick}
-        />
-        <NavBarItem
-          label={'Projects'}
-          onClick={onClick}
-        />
-        <NavBarItem
-          label={'My Project'}
-          onClick={onClick}
-        />
-        <NavBarItem
-          label={'Contact'}
-          onClick={onClick}
-        />
       </div>
     )
   }

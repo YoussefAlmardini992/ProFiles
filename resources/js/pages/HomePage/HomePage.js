@@ -9,8 +9,7 @@ export default class HomePage extends Component {
             <div className="homePageContainer">
                 <div className="BgImg"></div>
                 <div className="title">
-                   The best website builder,<br/>
-                    Make your dreams real!
+                 ATitle
                 </div>
                 <div >
                     some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text

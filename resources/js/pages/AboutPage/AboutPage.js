@@ -8,12 +8,12 @@ export default class AboutPage extends Component {
     return (
       <div className="AboutContainer">
         <PersonInfo
-          name="Rawand"
+          name="Name"
           image={imageName}
           information="some text"
         />
         <PersonInfo
-          name="Yousef"
+          name="Name"
           image={imageName}
           information=" some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text"
         />
