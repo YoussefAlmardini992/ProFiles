@@ -9,6 +9,7 @@ import ContactPage from "./pages/ContactPage/ContactPage";
 import { Switch, Route } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import { BrowserRouter } from 'react-router-dom';
+import styles from "./index.css";
 
 
 export default class Index extends Component {
@@ -17,7 +18,7 @@ export default class Index extends Component {
         return (
                 <BrowserRouter>
                     <div>
-                        <ul>
+                        <ul className="NavBar">
                             <li><Link to='/'> <Logo/></Link></li>
                             <li><Link to='/'>Home</Link></li>
                             <li><Link to='/about'>About</Link></li>

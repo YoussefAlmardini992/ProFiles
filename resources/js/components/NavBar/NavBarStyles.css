@@ -1,7 +1,0 @@
-:local(.container){
-   display: flex;
-   width: 100%;
-}
-:local(.spaceBetween){
-    width: 100%;
-}
