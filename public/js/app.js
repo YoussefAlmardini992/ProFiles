@@ -6044,7 +6044,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "._339rN_QR-bZ-UDQ5DzvmnO{\r\n    width: 30%;\r\n    text-align: center;\r\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\r\n    font-size: 1rem;\r\n    font-weight: 400;\r\n    line-height: 1.7;\r\n    color: white;\r\n    float: right;\r\n    background-color: #1d68a7;\r\n}\r\n._339rN_QR-bZ-UDQ5DzvmnO:hover{\r\n    cursor: pointer;\r\n}\r\n.RiGFLW6T1uALyWdKb9m_O{\r\n    height: 100%;\r\n}", ""]);
+exports.push([module.i, "._339rN_QR-bZ-UDQ5DzvmnO{\r\n    width: 30%;\r\n    text-align: center;\r\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\r\n    font-size: 1rem;\r\n    font-weight: 400;\r\n    line-height: 1.7;\r\n    color: white;\r\n    float: right;\r\n}\r\n._339rN_QR-bZ-UDQ5DzvmnO:hover{\r\n    cursor: pointer;\r\n}\r\n.RiGFLW6T1uALyWdKb9m_O{\r\n    height: 100%;\r\n}", ""]);
 
 // exports
 exports.locals = {

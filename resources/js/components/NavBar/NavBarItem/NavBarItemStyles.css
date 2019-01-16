@@ -7,7 +7,6 @@
     line-height: 1.7;
     color: white;
     float: right;
-    background-color: #1d68a7;
 }
 :local(.container:hover){
     cursor: pointer;
