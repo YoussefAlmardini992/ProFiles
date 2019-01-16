@@ -3,11 +3,12 @@ import styles from './PersonInfo.css';
 export default class PersonInfo extends Component {
 
         render() {
+          const{image,name,information} = this.props;
             return (
                 <div className="PersonInfo">
-                    <img src={this.props.PersonImg}/>
-                    <h2> {this.props.PersonName}</h2>
-                    <p>{this.props.PersonText}</p>
+                    <img src={image}/>
+                    <h2> {name}</h2>
+                    <p>{information}</p>
                 </div>
             )
         }

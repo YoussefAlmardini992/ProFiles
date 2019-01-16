@@ -15,20 +15,26 @@ export default class HomePageRouter extends Component {
     super(props);
     this.state = {
       currentPage: null
-    }
+    };
+    this.navigatePage = this.navigatePage.bind(this);
   }
-  navigatePage(target){
 
+  navigatePage(target){
     switch (target){
       default : case 'Home':
+        window.history.replaceState(null, null,"/");
         return(<HomePage/>);
       case 'About':
+        window.history.replaceState(null, null, "/about");
         return(<AboutPage/>);
       case 'Projects':
+        window.history.replaceState(null, null, "/projects");
         return(<ProjectsPage/>);
       case 'My Project':
+        window.history.replaceState(null, null, "/my project");
         return(<MyProject/>);
       case 'Contact':
+        window.history.replaceState(null, null, "/contact");
         return(<ContactPage/>);
     }
   }
