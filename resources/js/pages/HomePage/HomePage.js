@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styles from "./homepage.css"
 
 
 export default class HomePage extends Component {
@@ -8,12 +9,15 @@ export default class HomePage extends Component {
 
             <div className="homePageContainer">
                 <div className="BgImg"></div>
-                <div className="title">
-                 ATitle
+                <div className="HomePageContent">
+                    <div className="title">
+                        ATitle
+                    </div>
+                    <div >
+                        some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text
+                    </div>
                 </div>
-                <div >
-                    some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text
-                </div>
+
             </div>
 
         );

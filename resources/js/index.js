@@ -19,7 +19,7 @@ export default class Index extends Component {
                 <BrowserRouter>
                     <div>
                         <ul className="NavBar">
-                            <li><Link to='/'> <Logo/></Link></li>
+                            <div><Link to='/'> <Logo/></Link></div>
                             <li><Link to='/'>Home</Link></li>
                             <li><Link to='/about'>About</Link></li>
                             <li><Link to='/projects'>Projects</Link></li>

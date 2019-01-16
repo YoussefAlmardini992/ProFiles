@@ -1,8 +1,5 @@
 .AboutContainer{
+    height: 93vh;
     display: flex;
-    border: 1px solid black;
-    width: 80%;
-    margin: auto;
-    padding: 20px 20px;
 }
 

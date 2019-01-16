@@ -6025,7 +6025,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".PersonInfo{\r\n    border: 1px solid;\r\n    width: 50%;\r\n    text-align: center;\r\n}", ""]);
+exports.push([module.i, ".PersonInfo{\r\n    width: 45%;\r\n    text-align: center;\r\n    margin: 80px auto;\r\n}", ""]);
 
 // exports
 
@@ -6066,10 +6066,50 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "\r\n\r\n\r\n", ""]);
+exports.push([module.i, ".NavBar{\r\n    height: 7vh;\r\n    box-shadow: 0 0px 12px black;\r\n    margin: 0;\r\n    display: flex;\r\n    background: linear-gradient( #80bdc700 0%, #80bdc763 26%, #80bdc7 80%);\r\n}\r\n.NavBar li{\r\n    list-style-type: none;\r\n    width: 100px;\r\n    text-align: center;\r\n    margin: auto;\r\n}\r\n\r\n.NavBar li a {\r\n    text-decoration: none;\r\n    color: black;\r\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\r\n    font-size: 1rem;\r\n    font-weight: 400;\r\n    line-height: 1.7;\r\n}\r\n\r\n.NavBar li a:hover{\r\n    color: #b0d4f1;\r\n}\r\n.NavBar div{\r\n    margin-right: 50%;\r\n}", ""]);
 
 // exports
 
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/pages/AboutPage/AboutPage.css":
+/*!************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/pages/AboutPage/AboutPage.css ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".AboutContainer{\r\n    height: 93vh;\r\n    display: flex;\r\n}\r\n\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/pages/HomePage/homepage.css":
+/*!**********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/pages/HomePage/homepage.css ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\r\n\r\n\r\n._2-gBbE6E9N69TlxQhtsRjt {\r\n    height: 100vh ;\r\n}\r\n\r\n.homePageContainer{\r\n\r\n}\r\n\r\n.BgImg{\r\n    background-image: url(/images/bg2.jpg?a2a4e2f…);\r\n    background-repeat: no-repeat;\r\n    width: 100%;\r\n    height: 80vh;\r\n    background-size: 100%;\r\n    position: absolute;\r\n    top: 0;\r\n    z-index:-1;\r\n}\r\n.HomePageContent{\r\n    width: 80%;\r\n    margin: 15% auto 0 auto;\r\n    background: linear-gradient( #03a9f400 0%, #8e8e8efc 33%, #000000 100%);\r\n    box-shadow: 0px 36px 15px -21px rgba(0, 0, 0, 0.72);\r\n    height: 40vh;\r\n}\r\n\r\n.title{\r\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\r\n    font-size: 3rem;\r\n    font-weight: 400;\r\n    line-height: 1.7;\r\n    text-align: left;\r\n\r\n}", ""]);
+
+// exports
+exports.locals = {
+	"BodyContainer": "_2-gBbE6E9N69TlxQhtsRjt"
+};
 
 /***/ }),
 
@@ -65195,7 +65235,7 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "NavBar"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Link"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         to: "/"
       }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_logo_logo__WEBPACK_IMPORTED_MODULE_4__["default"], null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         to: "/"
@@ -65238,6 +65278,36 @@ if (document.getElementById('root')) {
 
 /***/ }),
 
+/***/ "./resources/js/pages/AboutPage/AboutPage.css":
+/*!****************************************************!*\
+  !*** ./resources/js/pages/AboutPage/AboutPage.css ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./AboutPage.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/pages/AboutPage/AboutPage.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./resources/js/pages/AboutPage/AboutPage.js":
 /*!***************************************************!*\
   !*** ./resources/js/pages/AboutPage/AboutPage.js ***!
@@ -65251,6 +65321,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_PersonInfo_PersonInfo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/PersonInfo/PersonInfo */ "./resources/js/components/PersonInfo/PersonInfo.js");
+/* harmony import */ var _AboutPage_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AboutPage.css */ "./resources/js/pages/AboutPage/AboutPage.css");
+/* harmony import */ var _AboutPage_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_AboutPage_css__WEBPACK_IMPORTED_MODULE_2__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -65268,6 +65340,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
 
 
 
@@ -65380,6 +65453,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return HomePage; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _homepage_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./homepage.css */ "./resources/js/pages/HomePage/homepage.css");
+/* harmony import */ var _homepage_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_homepage_css__WEBPACK_IMPORTED_MODULE_1__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -65397,6 +65472,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
 
 
 
@@ -65419,8 +65495,10 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "BgImg"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "HomePageContent"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "title"
-      }, "ATitle"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text"));
+      }, "ATitle"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text")));
     }
   }]);
 
@@ -65428,6 +65506,36 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 
+
+/***/ }),
+
+/***/ "./resources/js/pages/HomePage/homepage.css":
+/*!**************************************************!*\
+  !*** ./resources/js/pages/HomePage/homepage.css ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./homepage.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/pages/HomePage/homepage.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
 
 /***/ }),
 
