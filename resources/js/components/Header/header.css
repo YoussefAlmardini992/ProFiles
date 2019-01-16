@@ -1,0 +1,8 @@
+
+.HeaderContainer {
+    display: flex;
+    border-bottom: 1px solid white;
+    padding: 0 5%;
+    z-index: 1;
+    background: #00000038;
+}
