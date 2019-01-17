@@ -1,0 +1,9 @@
+
+:local(.logo) {
+    height: 50px;
+}
+
+:local(.logoContainer) {
+    border-right: solid 1px white;
+    padding: 0 10px;
+}
