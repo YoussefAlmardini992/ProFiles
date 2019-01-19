@@ -2,7 +2,7 @@
     height: 50px;
     margin: 0;
     display: flex;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #ffffff30;
 }
 
 .NavBar:hover {
@@ -23,7 +23,9 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.7;
+    color: #1e0311;
 }
+
 
 .NavBar div{
     margin-right: 50%;
