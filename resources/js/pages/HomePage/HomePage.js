@@ -16,6 +16,7 @@ export default class HomePage extends Component {
                     <div >
                         some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text
                     </div>
+                    <button className="HomePageBtn">Create your owen project</button>
                 </div>
 
             </div>

@@ -6066,7 +6066,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".NavBar{\r\n    height: 7vh;\r\n    box-shadow: 0 0px 12px black;\r\n    margin: 0;\r\n    display: flex;\r\n    background: linear-gradient( #80bdc700 0%, #80bdc763 26%, #80bdc7 80%);\r\n}\r\n.NavBar li{\r\n    list-style-type: none;\r\n    width: 100px;\r\n    text-align: center;\r\n    margin: auto;\r\n}\r\n\r\n.NavBar li a {\r\n    text-decoration: none;\r\n    color: black;\r\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\r\n    font-size: 1rem;\r\n    font-weight: 400;\r\n    line-height: 1.7;\r\n}\r\n\r\n.NavBar li a:hover{\r\n    color: #b0d4f1;\r\n}\r\n.NavBar div{\r\n    margin-right: 50%;\r\n}", ""]);
+exports.push([module.i, ".NavBar{\r\n    height: 50px;\r\n    margin: 0;\r\n    display: flex;\r\n    border-bottom: 1px solid white;\r\n}\r\n\r\n.NavBar:hover {\r\n    background: white;\r\n    color: #000000;\r\n}\r\n\r\n.NavBar li{\r\n    list-style-type: none;\r\n    width: 100px;\r\n    text-align: center;\r\n    margin: auto;\r\n}\r\n\r\n.NavBar li a {\r\n    text-decoration: none;\r\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\r\n    font-size: 1rem;\r\n    font-weight: 400;\r\n    line-height: 1.7;\r\n}\r\n\r\n.NavBar div{\r\n    margin-right: 50%;\r\n}", ""]);
 
 // exports
 
@@ -6099,12 +6099,13 @@ exports.push([module.i, ".AboutContainer{\r\n    height: 93vh;\r\n    display: f
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var escape = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
 exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "\r\n\r\n\r\n._2-gBbE6E9N69TlxQhtsRjt {\r\n    height: 100vh ;\r\n}\r\n\r\n.homePageContainer{\r\n\r\n}\r\n\r\n.BgImg{\r\n    background-image: url(/images/bg2.jpg?a2a4e2f…);\r\n    background-repeat: no-repeat;\r\n    width: 100%;\r\n    height: 80vh;\r\n    background-size: 100%;\r\n    position: absolute;\r\n    top: 0;\r\n    z-index:-1;\r\n}\r\n.HomePageContent{\r\n    width: 80%;\r\n    margin: 15% auto 0 auto;\r\n    background: linear-gradient( #03a9f400 0%, #8e8e8efc 33%, #000000 100%);\r\n    box-shadow: 0px 36px 15px -21px rgba(0, 0, 0, 0.72);\r\n    height: 40vh;\r\n}\r\n\r\n.title{\r\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\r\n    font-size: 3rem;\r\n    font-weight: 400;\r\n    line-height: 1.7;\r\n    text-align: left;\r\n\r\n}", ""]);
+exports.push([module.i, "\r\n\r\n\r\n._2-gBbE6E9N69TlxQhtsRjt {\r\n    height: 100vh ;\r\n}\r\n\r\n.homePageContainer{\r\n\r\n}\r\n\r\n.BgImg{\r\n    background-image: url(" + escape(__webpack_require__(/*! ../../../../public/img/testBG.png */ "./public/img/testBG.png")) + ");\r\n    background-repeat: no-repeat;\r\n    background-size:cover;\r\n    width: 100%;\r\n    height: 100%;\r\n    position: absolute;\r\n    top: 0;\r\n    z-index: -1;\r\n\r\n\r\n}\r\n.HomePageContent{\r\n    width: 60%;\r\n    margin: auto;\r\n    position: relative;\r\n    top: 336px;\r\n    color: white;\r\n    text-align: center;\r\n}\r\n\r\n.title{\r\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\r\n    font-size: 3rem;\r\n    font-weight: 400;\r\n    line-height: 1.7;\r\n    width: 100%;\r\n    margin: auto;\r\n    text-align: center;\r\n\r\n}\r\n.HomePageBtn{\r\n    background: #00000082;\r\n    border: 1px solid white;\r\n    margin: 20px;\r\n    padding: 10px;\r\n    color: white;\r\n}\r\n\r\n.HomePageBtn:hover{\r\n    background: white;\r\n    color: black;\r\n    border:1px solid black;\r\n}", ""]);
 
 // exports
 exports.locals = {
@@ -6195,6 +6196,33 @@ function toComment(sourceMap) {
 	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
 
 	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/lib/url/escape.js":
+/*!***************************************************!*\
+  !*** ./node_modules/css-loader/lib/url/escape.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function escape(url) {
+    if (typeof url !== 'string') {
+        return url
+    }
+    // If url is already wrapped in quotes, remove them
+    if (/^['"].*['"]$/.test(url)) {
+        url = url.slice(1, -1);
+    }
+    // Should url be wrapped?
+    // See https://drafts.csswg.org/css-values-3/#urls
+    if (/["'() \t\n]/.test(url)) {
+        return '"' + url.replace(/"/g, '\\"').replace(/\n/g, '\\n') + '"'
+    }
+
+    return url
 }
 
 
@@ -64858,6 +64886,17 @@ module.exports = "/images/logo.jpeg?890f7e0c75ff9e03798d3405210013bf";
 
 /***/ }),
 
+/***/ "./public/img/testBG.png":
+/*!*******************************!*\
+  !*** ./public/img/testBG.png ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/testBG.png?21f3f190687b9ed659b0760e2f4ecc59";
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -65372,8 +65411,8 @@ function (_Component) {
   _createClass(Index, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "NavBar"
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "NavBar "
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Link"], {
         to: "/"
       }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_logo_logo__WEBPACK_IMPORTED_MODULE_4__["default"], null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Link"], {
@@ -65681,7 +65720,9 @@ function (_Component) {
         className: "HomePageContent"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "title"
-      }, "ATitle"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text")));
+      }, "ATitle"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        className: "HomePageBtn"
+      }, "Create your owen project")));
     }
   }]);
 
