@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import styles from "./homepage.css"
+import AboutPage from "../AboutPage/AboutPage";
 
 
 export default class HomePage extends Component {
 
     render() {
       return (
-
+          <div className="OnePageDesign">
             <div className="homePageContainer">
                 <div className="BgImg"></div>
                 <div className="HomePageContent">
@@ -20,7 +21,8 @@ export default class HomePage extends Component {
                 </div>
 
             </div>
-
+              <AboutPage/>
+          </div>
         );
     }
 }
