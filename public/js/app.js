@@ -6015,7 +6015,7 @@ module.exports = {
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./public/css/index.css":
 /*!**************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./public/css/index.css ***!
+  !*** ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./public/css/index.css ***!
   \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -6034,7 +6034,7 @@ exports.push([module.i, ".NavBar {\n  height: 50px;\n  margin: 0;\n  display: fl
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/PersonInfo/PersonInfo.css":
 /*!*******************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/PersonInfo/PersonInfo.css ***!
+  !*** ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./resources/js/components/PersonInfo/PersonInfo.css ***!
   \*******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -6053,7 +6053,7 @@ exports.push([module.i, ".PersonInfo{\r\n    text-align: center;\r\n    backgrou
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/logo/logo.css":
 /*!*******************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/logo/logo.css ***!
+  !*** ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./resources/js/components/logo/logo.css ***!
   \*******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -6075,7 +6075,7 @@ exports.locals = {
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/pages/AboutPage/AboutPage.css":
 /*!************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/pages/AboutPage/AboutPage.css ***!
+  !*** ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./resources/js/pages/AboutPage/AboutPage.css ***!
   \************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -6094,7 +6094,7 @@ exports.push([module.i, ".AboutContainer{\r\n    width: 70%;\r\n    margin: auto
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/pages/HomePage/homepage.css":
 /*!**********************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/pages/HomePage/homepage.css ***!
+  !*** ./node_modules/css-loader??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./resources/js/pages/HomePage/homepage.css ***!
   \**********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -64883,7 +64883,7 @@ module.exports = function(module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-1!../../node_modules/postcss-loader/src??ref--6-2!./index.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./public/css/index.css");
+var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--7-1!../../node_modules/postcss-loader/src??ref--7-2!./index.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./public/css/index.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -65156,7 +65156,7 @@ function (_Component) {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./PersonInfo.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/PersonInfo/PersonInfo.css");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--7-1!../../../../node_modules/postcss-loader/src??ref--7-2!./PersonInfo.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/PersonInfo/PersonInfo.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -65254,7 +65254,7 @@ function (_Component) {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./logo.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/logo/logo.css");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--7-1!../../../../node_modules/postcss-loader/src??ref--7-2!./logo.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/logo/logo.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -65455,7 +65455,7 @@ if (document.getElementById('root')) {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./AboutPage.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/pages/AboutPage/AboutPage.css");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--7-1!../../../../node_modules/postcss-loader/src??ref--7-2!./AboutPage.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/pages/AboutPage/AboutPage.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -65719,7 +65719,7 @@ function (_Component) {
         className: "title"
       }, "ATitle"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         className: "HomePageBtn"
-      }, "Create your owen project"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_AboutPage_AboutPage__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+      }, "Create your owen project"))));
     }
   }]);
 
@@ -65738,7 +65738,7 @@ function (_Component) {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./homepage.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/pages/HomePage/homepage.css");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--7-1!../../../../node_modules/postcss-loader/src??ref--7-2!./homepage.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/pages/HomePage/homepage.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -65889,15 +65889,27 @@ function (_Component) {
 
 /***/ }),
 
+/***/ "./resources/sass/less/index.less":
+/*!****************************************!*\
+  !*** ./resources/sass/less/index.less ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
+/*!**********************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/less/index.less ./resources/sass/app.scss ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\webroot\friends\ProFiles\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\webroot\friends\ProFiles\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Metamorphosis\Documents\ProFiles\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! C:\Users\Metamorphosis\Documents\ProFiles\resources\sass\less\index.less */"./resources/sass/less/index.less");
+module.exports = __webpack_require__(/*! C:\Users\Metamorphosis\Documents\ProFiles\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

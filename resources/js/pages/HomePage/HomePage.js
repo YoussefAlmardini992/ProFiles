@@ -21,7 +21,7 @@ export default class HomePage extends Component {
                 </div>
 
             </div>
-              <AboutPage/>
+
           </div>
         );
     }
